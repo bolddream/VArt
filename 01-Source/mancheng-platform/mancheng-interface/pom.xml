@@ -5,9 +5,9 @@
   <parent>
     <groupId>com.vart</groupId>
     <artifactId>mancheng-platform</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>v1.0</version>
   </parent>
-  <groupId>com.vart</groupId>
+  <groupId>mancheng-interface</groupId>
   <artifactId>mancheng-interface</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
@@ -21,7 +21,34 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+    
   <build>
-    <finalName>mancheng-interface</finalName>
-  </build>
+        <finalName>mancheng-interface</finalName>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <configuration>
+                        <source>1.8</source>
+                        <target>1.8</target>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*</include>
+                </includes>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*</include>
+                </includes>
+            </resource>
+        </resources>
+    </build>
 </project>

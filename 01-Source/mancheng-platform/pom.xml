@@ -4,7 +4,7 @@
 
   <groupId>com.vart</groupId>
   <artifactId>mancheng-platform</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>v1.0</version>
   <packaging>pom</packaging>
 
   <distributionManagement>
@@ -20,5 +20,6 @@
   <modules>
   	<module>mancheng-web</module>
     <module>mancheng-interface</module>
+    <module>mancheng-entity</module>
   </modules>
 </project>
