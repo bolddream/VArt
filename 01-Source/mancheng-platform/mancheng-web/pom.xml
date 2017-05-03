@@ -7,7 +7,7 @@
     <artifactId>mancheng-platform</artifactId>
     <version>v1.0</version>
   </parent>
-  <groupId>com.vart</groupId>
+  <groupId>mancheng-web</groupId>
   <artifactId>mancheng-web</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
@@ -20,6 +20,12 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    
+   	<dependency>
+		<groupId>mancheng-entity</groupId>
+		<artifactId>mancheng-entity</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</dependency>
   </dependencies>
   
   <build>
