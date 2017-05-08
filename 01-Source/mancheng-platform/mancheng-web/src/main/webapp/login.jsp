@@ -3,10 +3,10 @@
 <%@page import="org.apache.commons.codec.binary.Base64"%>
 <%@page import="org.apache.shiro.web.filter.authc.FormAuthenticationFilter"%>
 <%@page import="org.springframework.context.ApplicationContext"%>
-<%@page import="com.lmsa.beans.Setting"%>
-<%@page import="com.lmsa.utils.SettingUtils"%>
-<%@page import="com.lmsa.utils.SpringUtils"%>
-<%@page import="com.lmsa.service.RSAService"%>
+<%@page import="com.mancheng.beans.Setting"%>
+<%@page import="com.mancheng.utils.SettingUtils"%>
+<%@page import="com.mancheng.utils.SpringUtils"%>
+<%@page import="com.mancheng.service.RSAService"%>
 <%@taglib prefix="shiro" uri="http://shiro.apache.org/tags" %>
 <%
 String base = request.getContextPath();

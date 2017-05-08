@@ -1,141 +1,150 @@
 <?xml version="1.0"?>
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <groupId>com.mancheng</groupId>
-    <artifactId>mancheng-platform</artifactId>
-    <version>v1.0</version>
-  </parent>
-  <groupId>mancheng-web</groupId>
-  <artifactId>mancheng-web</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>war</packaging>
-  <name>mancheng-web Maven Webapp</name>
-  <url>http://maven.apache.org</url>
- 
-
-  <properties>
-    <org.springframework.version>4.0.4.RELEASE</org.springframework.version>
-    <org.hibernate.version>4.3.11.Final</org.hibernate.version>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
-  
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-    
-    <dependency>
-        <groupId>mancheng-entity</groupId>
-        <artifactId>mancheng-entity</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
-    </dependency>
-    
-    <!-- Web application development utilities applicable to both Servlet and 
-        Portlet Environments (depends on spring-core, spring-beans, spring-context) 
-        Define this if you use Spring MVC, or wish to use Struts, JSF, or another 
-        web framework with Spring (org.springframework.web.*) -->
-    <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-web</artifactId>
-    </dependency>
-    
-    <!-- Transaction Management Abstraction (depends on spring-core, spring-beans, 
-    spring-aop, spring-context) Define this if you use Spring Transactions or 
-    DAO Exception Hierarchy (org.springframework.transaction.*/org.springframework.dao.*) -->
-    <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-tx</artifactId>
-    </dependency>
-    
-    <!-- Log -->
-    <dependency>
-        <groupId>org.slf4j</groupId>
-        <artifactId>slf4j-api</artifactId>
-
-    </dependency>
-    <dependency>
-        <groupId>ch.qos.logback</groupId>
-        <artifactId>logback-classic</artifactId>
-    </dependency>
-    
-    <dependency>
-        <groupId>org.apache.shiro</groupId>
-        <artifactId>shiro-all</artifactId>
-    </dependency>
-    
-    <!-- jpush -->
-    <dependency>
-        <groupId>com.google.code.gson</groupId>
-        <artifactId>gson</artifactId>
-    </dependency>
-     
-    <!-- Spring MVC for Servlet Environments (depends on spring-core, spring-beans, 
-    spring-context, spring-web) Define this if you use Spring MVC with a Servlet 
-    Container such as Apache Tomcat (org.springframework.web.servlet.*) -->
-    <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-webmvc</artifactId>
-    </dependency>
-    
-    <!-- Freemarker -->
-    <dependency>
-        <groupId>org.freemarker</groupId>
-        <artifactId>freemarker</artifactId>
-    </dependency>
-    
-    <dependency>
-        <groupId>org.bouncycastle</groupId>
-        <artifactId>bcprov-jdk15on</artifactId>
-    </dependency>
-    
-    <!-- Cache -->
-    <dependency>
-        <groupId>net.sf.ehcache</groupId>
-        <artifactId>ehcache-core</artifactId>
-    </dependency>
-    <dependency>
-        <groupId>net.sf.ehcache</groupId>
-        <artifactId>ehcache-web</artifactId>
-    </dependency>
-    
-    <dependency>
-        <groupId>commons-io</groupId>
-        <artifactId>commons-io</artifactId>
-    </dependency>
-    
-  </dependencies>
-  <build>
-        <finalName>mancheng-web</finalName>
-        <pluginManagement>
-            <plugins>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-compiler-plugin</artifactId>
-                    <configuration>
-                        <source>1.8</source>
-                        <target>1.8</target>
-                    </configuration>
-                </plugin>
-            </plugins>
-        </pluginManagement>
-        <resources>
-            <resource>
-                <directory>src/main/java</directory>
-                <includes>
-                    <include>**/*</include>
-                </includes>
-            </resource>
-            <resource>
-                <directory>src/main/resources</directory>
-                <includes>
-                    <include>**/*</include>
-                </includes>
-            </resource>
-        </resources>
-    </build>
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+	  <groupId>com.mancheng</groupId>
+	  <artifactId>mancheng-platform</artifactId>
+	  <version>v1.0</version>
+	</parent>
+	<groupId>mancheng-web</groupId>
+	<artifactId>mancheng-web</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
+	<name>mancheng-web Maven Webapp</name>
+	<url>http://maven.apache.org</url>
+	
+	
+	<properties>
+	  <org.springframework.version>4.0.4.RELEASE</org.springframework.version>
+	  <org.hibernate.version>4.3.11.Final</org.hibernate.version>
+	  <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	
+	<dependencies>
+		<dependency>
+		  <groupId>junit</groupId>
+		  <artifactId>junit</artifactId>
+		  <version>3.8.1</version>
+		  <scope>test</scope>
+		</dependency>
+		
+		<dependency>
+		    <groupId>mancheng-entity</groupId>
+		    <artifactId>mancheng-entity</artifactId>
+		    <version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		
+		<!-- Web application development utilities applicable to both Servlet and 
+		    Portlet Environments (depends on spring-core, spring-beans, spring-context) 
+		    Define this if you use Spring MVC, or wish to use Struts, JSF, or another 
+		    web framework with Spring (org.springframework.web.*) -->
+		<dependency>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-web</artifactId>
+		</dependency>
+		
+		<!-- Transaction Management Abstraction (depends on spring-core, spring-beans, 
+		spring-aop, spring-context) Define this if you use Spring Transactions or 
+		DAO Exception Hierarchy (org.springframework.transaction.*/org.springframework.dao.*) -->
+		<dependency>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-tx</artifactId>
+		</dependency>
+		
+		<!-- Log -->
+		<dependency>
+		    <groupId>org.slf4j</groupId>
+		    <artifactId>slf4j-api</artifactId>
+		
+		</dependency>
+		<dependency>
+		    <groupId>ch.qos.logback</groupId>
+		    <artifactId>logback-classic</artifactId>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.apache.shiro</groupId>
+		    <artifactId>shiro-all</artifactId>
+		</dependency>
+		
+		<!-- jpush -->
+		<dependency>
+		    <groupId>com.google.code.gson</groupId>
+		    <artifactId>gson</artifactId>
+		     </dependency>
+		 
+		<!-- Spring MVC for Servlet Environments (depends on spring-core, spring-beans, 
+		spring-context, spring-web) Define this if you use Spring MVC with a Servlet 
+		Container such as Apache Tomcat (org.springframework.web.servlet.*) -->
+		<dependency>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-webmvc</artifactId>
+		</dependency>
+		
+		<!-- Freemarker -->
+		<dependency>
+		    <groupId>org.freemarker</groupId>
+		    <artifactId>freemarker</artifactId>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.bouncycastle</groupId>
+		    <artifactId>bcprov-jdk15on</artifactId>
+		</dependency>
+		
+		<!-- Cache -->
+		<dependency>
+		    <groupId>net.sf.ehcache</groupId>
+		    <artifactId>ehcache-core</artifactId>
+		</dependency>
+		<dependency>
+		    <groupId>net.sf.ehcache</groupId>
+		    <artifactId>ehcache-web</artifactId>
+		</dependency>
+		
+		<dependency>
+		    <groupId>commons-io</groupId>
+		    <artifactId>commons-io</artifactId>
+		</dependency>
+		   
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+		</dependency>
+		
+		<dependency>  
+            <groupId>org.springframework</groupId>  
+            <artifactId>spring-context-support</artifactId>  
+        </dependency>  
+	</dependencies>
+	<build>
+		<finalName>mancheng-web</finalName>
+		<pluginManagement>
+		    <plugins>
+		        <plugin>
+		            <groupId>org.apache.maven.plugins</groupId>
+		            <artifactId>maven-compiler-plugin</artifactId>
+		            <configuration>
+		                <source>1.8</source>
+		                <target>1.8</target>
+		            </configuration>
+		        </plugin>
+		    </plugins>
+		</pluginManagement>
+		<resources>
+		    <resource>
+		        <directory>src/main/java</directory>
+		        <includes>
+		            <include>**/*</include>
+		        </includes>
+		    </resource>
+		    <resource>
+		        <directory>src/main/resources</directory>
+		        <includes>
+		            <include>**/*</include>
+		        </includes>
+		    </resource>
+		</resources>
+	</build>
 </project>
