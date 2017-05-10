@@ -1,0 +1,28 @@
+
+# Folders
+
+[Tt]arget/
+.settings/
+Servers/
+.metadata/
+.recommenders/
+
+# Files
+.project
+.classpath
+code/.classpath
+code/.settings/.jsdtscope
+code/.settings/org.eclipse.core.resources.prefs
+code/.settings/org.eclipse.m2e.core.prefs
+code/.settings/org.eclipse.jdt.core.prefs
+code/.settings/org.eclipse.wst.validation.prefs
+code/.settings/org.eclipse.wst.jsdt.ui.superType.name
+code/.settings/org.eclipse.wst.jsdt.ui.superType.container
+code/.settings/org.eclipse.wst.common.project.facet.core.xml
+code/.settings/org.eclipse.wst.common.component
+code/.project
+.idea/
+source/mancheng-platform/mancheng-entity/mancheng-entity.iml
+source/mancheng-platform/mancheng-interface/mancheng-interface.iml
+source/mancheng-platform/mancheng-platform.iml
+source/mancheng-platform/mancheng-web/mancheng-web.iml
