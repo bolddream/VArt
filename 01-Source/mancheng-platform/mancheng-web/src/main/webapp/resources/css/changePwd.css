@@ -1,0 +1,21 @@
+#changePwdForm{
+    width: 550px;
+    margin: 0px auto;
+    padding: 10px;
+}
+#changePwdForm .table th ,#changePwdForm .table td {
+    border: none;
+}
+#changePwdForm th{
+    width: 130px;
+}
+
+#changePwdForm .sub_table{
+    text-align: center;
+}
+
+#changePwdForm .btn{
+    width: 150px;
+    background-color:#e31d1a ;
+    color:#fff;
+}

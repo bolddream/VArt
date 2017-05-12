@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mancheng-web>
+    <setting name="menu" value="Model; Device; Resource; Version;" />
+</mancheng-web> 
+    

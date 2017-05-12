@@ -1,0 +1,181 @@
+.log_logs {
+	margin-left: 2%;
+    height: 150px;
+    width: 95%;
+    overflow: auto;
+}
+#tipspan{
+	    font-size: 15px;
+	    display: inline-block;
+	    margin: 0px 0 10px 0;
+}
+.body{
+	    color: rgba(0,0,0,.5);
+}
+.rescueSerchinput{
+    background-color: #ececec;
+    border-radius: 7px !important;
+    border: 0px solid #bbb;
+    width: 200px !important;
+    box-shadow: 0px 0px 3px #ececec;
+    float: right;
+}
+
+.chosen-container{	
+	width: 100% !important;
+	heigth:20px;
+}
+#addRomForm{
+	width:900px;
+}
+Form tr,Form th,td{
+    heigth:17px !important;
+    padding: 4px !important;
+}
+
+#addRomForm td{
+    padding-right: 0px !important;
+}
+#addRomForm th{
+	width:12%;
+	text-align:  right;
+    padding-top: 3px !important;
+}
+form .table td input {
+    background-color: #F5F5F5;
+    box-shadow: inset 0 0px 0px rgba(0,0,0,.075);
+    border-style: none none solid none;
+   
+}
+.form-control,select{
+	 height: 25px !important;
+	 border: 1px solid #f5f5f5;
+}
+#addOldbtn{
+	    background-color: #243FE4;
+}
+.rom_table{
+	width: 450px;
+    margin: 5px 250px;
+}
+.rom_table button{
+	height:30px;
+}
+.addBtnBrown{
+	font-size:10px;
+    color: #ffffff;
+    float: right;
+    text-align: center;
+    margin-right:10px;
+    padding-top: 4px;
+    width:50px;
+    height:20px;
+    background-color: #FF7900;
+    line-height:12px;
+    box-shadow:2px 2px 3px #E5E5E5;
+}
+.moreBtnEdit{
+    float: right;
+    text-align: center;
+    margin-right:10px;
+    padding-top:2px;
+    width:70px;
+    height:15px;
+    line-height:15px;
+}
+.cancelBtnGray {
+    color: #ffffff;
+    float: right;
+    text-align: center;
+    margin-right:10px;
+    padding-top:3px;
+    width:70px;
+    height:35px;
+    background-color: #aaaaaa;
+    line-height:30px;
+    box-shadow:2px 2px 3px #E5E5E5;
+}
+.doneBtnRed {
+    color: #ffffff;
+    float: right;
+    text-align: center;
+    width:70px;
+    height:40px;
+    background-color: #e31d1a;
+    line-height:30px;
+    box-shadow:2px 2px 3px #E5E5E5;
+}
+.flashTab {
+    padding:10px 20px 15px 20px;
+}
+.flashTabLine {
+    border-bottom: 2px solid red; 
+    padding:10px 25px 15px 25px;
+}
+.flashTd{
+    vertical-align: middle;
+    padding-left: 30px;
+}
+.searchInput {
+     padding: 6px 12px;
+     vertical-align: middle;
+     height: 35px;
+     width: 160px;
+     background-color: #ececec;
+     border-radius: 3px;
+     box-shadow: 0px 0px 1px #ececec;
+     margin-left:290px;
+     display: inline-block;
+}
+.searchInput {
+     padding: 6px 12px;
+     vertical-align: middle;
+     height: 35px;
+     width: 160px;
+     background-color: #ececec;
+     border-radius: 3px;
+     box-shadow: 0px 0px 1px #ececec;
+     margin-left:470px;
+     display: inline-block;
+}
+.btn_div{
+    background-color: white;
+    float: left;
+    text-align: center;
+    display: none;
+    position: absolute;
+    height: 48px;
+    margin: -12px 0px 0px -84px;
+    padding: 11px;
+    width: 165px;
+    box-shadow: 0px 1px 5px #aaa;
+}
+.btn_div a{
+    color:red;
+    margin: 6px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+/* .edit_div{
+    width:30px;
+    height:35px;
+} */
+.moreBtn{
+        position: absolute;
+        right:40px;
+        height:35px;
+}
+
+.flashEditCancel{
+width:120px;
+margin-left:-28px;
+}
+.moreBtnEdit{
+    float: right;
+    text-align: center;
+    margin-right:10px;
+    padding-top:3px;
+    width:70px;
+    height:35px;
+    line-height:30px;
+}

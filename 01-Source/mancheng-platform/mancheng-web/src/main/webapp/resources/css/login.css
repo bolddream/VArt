@@ -1,0 +1,175 @@
+body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f7f7f7;
+    font-size: 16px;
+}
+
+.logo{
+	  margin-bottom: 28px;
+}
+
+
+.iradio_choose1 {
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 14px;
+    height: 14px;
+    background: url(single-choose1.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+
+.iradio_choose2{
+	display: inline-block;
+    *display: inline;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 14px;
+    height: 14px;
+    background: url(single-choose2.png) no-repeat;
+    border: none;
+    cursor: pointer;	
+}
+
+.form-signin {
+    width: 284px;
+    margin: 80px auto;
+}
+.form-signin .form-control {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 16px;
+    height: 35px;
+    width: 210px;
+    border-left: none;
+}
+.form-group {
+    position: relative;
+    font-size: 14px;
+    color: #c0c0c0;
+    font-family: ΢���ź�;
+}
+.form-group .form-controller {
+  width: 100%;
+  position: relative;
+  z-index: 3;
+  height: 35px;
+  background-color: #f7f7f7;;
+  border: none;
+  padding: 5px 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-bottom: 1px solid #c0c0c0;
+}
+.form-group .form-label {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+-webkit-box-shadow: 0 0 0px 1000px #f7f7f7 inset;
+outline:none;
+}
+input,textarea{outline:none;}
+
+.form-group .form-controller:focus + .form-label, .form-group .form-controller:valid + .form-label {
+  font-size: 12px;
+  -ms-transform: translateY(-15px);
+  -webkit-transform: translateY(-15px);
+  transform: translateY(-15px);
+  display:none;
+}
+.form-signin .input-group{
+     margin-bottom: 20px;
+     background-color: #f7f7f7;
+     width: 284px;
+ }
+.form-signin .input-group input{
+    height: 38px;
+    line-height: 38px;
+    background-color: #f7f7f7;
+}
+.input-group-addon , .form-control{
+    background-color: #f7f7f7;
+}
+.subBtn{
+    margin-top:23px;
+    display: block;
+    background-color:#c0c0c0;
+    box-shadow:2px 2px 5px #c0c0c0;
+    color: #f7f7f7;
+}
+
+
+
+#subBtn{
+	margin-top:23px;
+    display: block;
+    background-color:#c0c0c0;
+    box-shadow:2px 2px 3px #c0c0c0;
+	 background-color:#c0c0c0;
+	 color: #f7f7f7;
+	 height:40px;
+}
+ .input-group-btn:last-child>.btn{
+     border-radius: 2px;
+     background-color: #303030;
+     vertical-align:middle;
+     line-height: 36px;
+     height: 36px;
+     margin: 0px;
+     padding: 0px;
+ }
+.input-group-addon{
+    padding:0;
+    margin: 0;
+}
+ .input-group span{
+     line-height: 36px;
+     height: 36px !important;
+     width: 36px !important;
+     text-align: right;
+ }
+  #changeType .radio_div1{
+ 	padding:10px 0px 10px 10px;
+ }
+ #changeType .radio_div{
+ 	padding:0px;
+ }
+ #changeType .iradio_flat-blue {
+ 	margin-right: 10px;
+ }
+   #changeType .radio_div p{
+ 	  padding: 0px;
+ }
+ 
+  #changeType .radio_div1 p{
+ 	  padding: 10px 20px;
+ }
+ 
+#changeType .ui-dialog-button{
+	float :none;
+	text-align: center !important;
+}
+#changeType p.sentSuccess{
+	text-align: center !important;
+	margin-top:100px;
+}
+
+.login-warning{
+	color:#e31d1a;
+	 font-size: 14px;
+}
+ 

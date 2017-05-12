@@ -72,7 +72,7 @@
 		<dependency>
 		    <groupId>com.google.code.gson</groupId>
 		    <artifactId>gson</artifactId>
-		     </dependency>
+		</dependency>
 		 
 		<!-- Spring MVC for Servlet Environments (depends on spring-core, spring-beans, 
 		spring-context, spring-web) Define this if you use Spring MVC with a Servlet 
@@ -81,6 +81,14 @@
 		    <groupId>org.springframework</groupId>
 		    <artifactId>spring-webmvc</artifactId>
 		</dependency>
+		
+        <!-- Object-to-XML Mapping (OXM) abstraction and integration with JAXB, 
+            JiBX, Castor, XStream, and XML Beans. (depends on spring-core, spring-beans, 
+            spring-context) Define this if you need OXM (org.springframework.oxm.*) -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-orm</artifactId>
+        </dependency>
 		
 		<!-- Freemarker -->
 		<dependency>
@@ -117,6 +125,39 @@
             <groupId>org.springframework</groupId>  
             <artifactId>spring-context-support</artifactId>  
         </dependency>  
+        
+        <!-- hibernate -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-c3p0</artifactId>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-commons-annotations</artifactId>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-entitymanager</artifactId>
+        </dependency>
+        
+        <!-- MySQL jdbc driver -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+        
+        <!-- file upload part -->
+        <dependency>
+            <groupId>commons-fileupload</groupId>
+            <artifactId>commons-fileupload</artifactId>
+        </dependency>
+        
+        <dependency>
+            <groupId>jaxen</groupId>
+            <artifactId>jaxen</artifactId>
+        </dependency>
 	</dependencies>
 	<build>
 		<finalName>mancheng-web</finalName>

@@ -1,0 +1,43 @@
+
+/* header */
+.header-backgroud{
+	height: 35px;
+	width:100%;
+	line-height: 35px;
+	background-color: #e31d1a;
+}
+.header-logo{
+	height: 35px;
+	line-height: 35px;
+	float:left
+}
+.header-text{
+	height: 35px;
+	line-height: 35px;
+	float:left;
+	padding-top:2px;
+	padding-left:5px;
+	font-size:10px;
+	color:#fff;
+}
+.header-account{
+	float:right;
+	margin-right:50px
+}
+.header-user{
+	background-color: #e31d1a !important;
+	padding:0 !important;
+	height:35px !important;
+	line-height:35px !important;
+}
+.header-user span{
+	color:#8e0404;
+	padding-left:16px;
+}
+.header-dropdown li{
+	margin:0;
+}
+.header-first-li{
+	margin-top:10px !important;
+}
+/* header */

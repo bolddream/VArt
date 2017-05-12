@@ -1,0 +1,121 @@
+.new{
+	color: #ffffff;
+    width: 50px;
+    text-align: center;
+    background-color: #FF8000;
+    box-shadow: 2px 2px 3px #E5E5E5;
+    border: 0px;
+    float: left;
+}
+#mfg {
+	color: #ffffff;
+    float: right;
+    text-align: center;
+    width: 110px;
+    background-color: #ff9000;
+    box-shadow: 2px 2px 3px #E5E5E5;
+    border: 0px;
+}
+#hwPlatform {
+	color: #ffffff;
+    float: right;
+    text-align: center;
+    width: 110px;
+    background-color: #00b4ff;
+    box-shadow: 2px 2px 3px #E5E5E5;
+    border: 0px;
+}
+#chooseSortBy {
+    text-align: center;
+    padding-left: 400px;
+    padding-top: 5px;
+}
+#chooseSortBy a{
+	border:0px;
+}
+.document_content .panel-heading {
+    height: 54px;
+    border-bottom: none;
+    background-color: #ffffff;
+}
+.document_content .panel-body {
+    background-color: #ffffff;
+    padding: 0px;
+    height: 555px;
+    margin-top: -5px;
+}
+.group_btn .btn {
+    margin-left: 75px;
+    width: 120px;
+    background-color: #E31D1A;
+    border: none;
+    border-radius: 0px;
+}
+.platform-header {
+    min-height: 16.43px;
+    padding: 15px;
+    border-bottom: 0px solid #e5e5e5;
+}
+.addNew {
+    margin-right: 330px;
+     margin-bottom: 10px;
+    color: #ffffff !important;
+    float: right;
+    text-align: center;
+    width: 160px;
+    height: 30px;
+    margin-top: -5px;
+    background-color: #e31d1a;
+    line-height: 30px;
+    box-shadow: 2px 2px 3px #E5E5E5;
+    font-size: 13px !important;
+}
+.modal-header {
+    /*display: none;*/
+    text-align: -webkit-center;
+    border-bottom: none;
+}
+#hwPlatForm,#clientVendorForm{
+	margin:30px;
+}
+#backbtn {
+    background-color: #A6A6A6 !important;
+}
+.right_group_list {
+    width: 400px;
+    height: 400px;
+    overflow: auto;
+    margin: 0px auto;
+}
+.group_prompt {
+    position: relative;
+    top: 50px;
+    /* text-align: center; */
+    font-size: 16px;
+    font-weight: bloder;
+}
+.right_btn {
+    margin: 5px auto;
+    text-align: center;
+    height: 60px;
+    padding: 10px 0px 20px 0px;
+}
+.backButton {
+    color: #ffffff !important;
+    padding: 10px;
+    width: 120px;
+    height: 30px;
+    background-color: #e31d1a;
+}
+form .checkVersion {
+	overflow: hidden;
+}
+form .checkVersion li{
+	 list-style-type: none;
+	 float: left;
+	 margin: 5px;
+}
+
+form th{
+	text-align:right !important;
+}

@@ -16,7 +16,7 @@ if (applicationContext != null) {
 %>
 <shiro:authenticated>
 <%
-response.sendRedirect(base + "/lmsa/common/main.jhtml");
+response.sendRedirect(base + "/mancheng/common/main.jhtml");
 %>
 </shiro:authenticated>
 <%
@@ -49,7 +49,7 @@ response.sendRedirect(base + "/lmsa/common/main.jhtml");
 	
 	if (loginFailure != null) {
 		if (loginFailure.equals("org.apache.shiro.authc.UnknownAccountException")) {
-			message = "lmsa.web.user.not.exist";
+			message = "mancheng.web.user.not.exist";
 		} else if (loginFailure.equals("org.apache.shiro.authc.IncorrectCredentialsException")) {
 			message = "lmsa.web.authentication.failed";
 		} else if (loginFailure.equals("org.apache.shiro.authc.AuthenticationException")) {
